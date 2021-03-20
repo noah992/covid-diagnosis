@@ -36,5 +36,21 @@ Obtained from [Coronavirus Disease 2019 (COVID-19) Clinical Data Repository](htt
 
 This predictive model could help both of health workers and patients that they could know if the patients are positive by answering questions so this reduce their time and loaden a lot.
 
-## Model
+## Dataset
+
+Obtained from [Coronavirus Disease 2019 (COVID-19) Clinical Data Repository](https://covidclinicaldata.org/)
+Data dictionary [Coronavirus Disease 2019 (COVID-19) Clinical Data Repository](https://covidclinicaldata.org/)
+
+## Conclusion
+
+Symptoms which has high association with covid test result
+
+|feature|coefficient|
+|-|-|
+|fever| .27|
+|muscle sore| .23|
+|temperature| .21|
+|loss of smell| .22|
+|loss of taste| .21|
+
 Neural Network with 77% accuracy
