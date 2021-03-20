@@ -43,7 +43,7 @@ Data dictionary [Coronavirus Disease 2019 (COVID-19) Clinical Data Repository](h
 
 ## Conclusion
 
-#### book1
+### book1
 
 Symptoms which has high association with covid test result
 
@@ -55,5 +55,20 @@ Symptoms which has high association with covid test result
 |loss of smell| .22|
 |loss of taste| .21|
 
-#### book2
+### book2
 Neural Network with 77% accuracy
+
+## Recommendation & Note
+
+Relatively `loss_of_smell,`, `loss_of_taste`, `muscle_sore`, `temperature`, `headach` have strong associaion with `covid_test_results`. Health workers can pre-screen patients by giving questionaire and they would group based on the result so that they could reduce infection on site
+
+They can assume if a patients report below symptoms, the patient could be infected by COVID more likely
+
+A patient
+* cannot smell
+* cannot taste
+* has sore muscle
+* has high temperature
+* has headache
+
+This newral networl model would be used to pre-screen potential patients of COVID and reduce infections on site. In terms of use in medical site, the model is expected to be able to predict at over 99% accracy so there is a lot of space to improve. One way is get more data of `positive`, and `XGBoost` is especially high bias so I would get better result by reducing columns.
