@@ -43,6 +43,8 @@ Data dictionary [Coronavirus Disease 2019 (COVID-19) Clinical Data Repository](h
 
 ## Conclusion
 
+#### book1
+
 Symptoms which has high association with covid test result
 
 |feature|coefficient|
@@ -53,4 +55,5 @@ Symptoms which has high association with covid test result
 |loss of smell| .22|
 |loss of taste| .21|
 
+#### book2
 Neural Network with 77% accuracy
